@@ -1,0 +1,62 @@
+version: '3.7'
+
+services:
+  bot:
+    build: .
+    restart: always
+    volumes:
+      - .:/bot
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=redis
+      - POSTGRES_HOST=postgres
+    networks:
+      - redisnet
+      - dbnet
+
+  postgres:
+    image: postgres:12.18
+    restart: always
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - PGDATA=/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    expose:
+      - 5432
+    networks:
+      - dbnet
+
+  redis:
+    image: redis:7.2.4
+    restart: always
+    volumes:
+      - redis_data:/data
+    networks:
+      - redisnet
+    expose:
+      - 6379
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4:8.3
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=gonjubazz@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=postgres
+    ports:
+      - "5050:80"
+    networks:
+      - dbnet
+    restart: always
+
+
+volumes:
+  redis_data:
+  db_data:
+
+networks:
+  redisnet:
+  dbnet:
