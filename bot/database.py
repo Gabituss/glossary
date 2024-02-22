@@ -15,5 +15,5 @@ TORTOISE_ORM = {
 
 
 async def setup():
-    await Tortoise.init(TORTOISE_ORM)
+    await Tortoise.init(TORTOISE_ORM, _create_db=True)
     await Tortoise.generate_schemas()

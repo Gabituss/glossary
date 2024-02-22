@@ -57,7 +57,7 @@ document_adding_dialog = Dialog(
             "<a>{{fields[index].field_name}} - <b>{{fields[index].input}}</b></a>\n"
             "{% endfor %}\n"
         ),
-        Group(
+        ScrollingGroup(
             Select(
                 Format("{item[field_name]} {item[status]}"),
                 id="field_writer",
@@ -65,6 +65,7 @@ document_adding_dialog = Dialog(
                 on_click=handlers.user.select_input_field,
                 item_id_getter=lambda field: f"{field['field_id']} {field['order']}"
             ),
+            height=6,
             width=2,
         ),
         Cancel(Const("Добавить", when=F["finished"])),

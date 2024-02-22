@@ -5,42 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c45adfd4-1e31-4ada-badb-13d86eb25d25" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/glossary.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/botlogging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/controllers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/controllers/field.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/controllers/template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/controllers/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/dialogs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/dialogs/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/dialogs/filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/dialogs/getters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/dialogs/handlers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/dialogs/handlers/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/dialogs/handlers/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/dialogs/states.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/dialogs/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/handlers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/handlers/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/handlers/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/handlers/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/mics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/dialogs/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/dialogs/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +210,7 @@
       <workItem from="1708491472471" duration="5219000" />
       <workItem from="1708526837280" duration="6529000" />
       <workItem from="1708583371367" duration="32000" />
-      <workItem from="1708583658136" duration="4539000" />
+      <workItem from="1708583658136" duration="6950000" />
     </task>
     <servers />
   </component>
