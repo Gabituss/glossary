@@ -65,6 +65,7 @@ document_adding_dialog = Dialog(
                 on_click=handlers.user.select_input_field,
                 item_id_getter=lambda field: f"{field['field_id']} {field['order']}"
             ),
+            id="fields_scrolling_group",
             height=6,
             width=2,
         ),
